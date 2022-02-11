@@ -1,8 +1,10 @@
 #!/bin/bash
 
 #GLOBALS
-FILE="/var/www/html/ponto/api/ponto.json"
-FFERIADOS="/var/www/html/ponto/api/feriados"
+#FILE="/var/www/html/ponto/api/ponto.json"
+#FFERIADOS="/var/www/html/ponto/api/feriados"
+FILE="ponto.json"
+FFERIADOS="feriados"
 VIRADA=0
 CARGA=28800
 
@@ -256,12 +258,6 @@ function MENSAL {
 	#SALDOMENSAL=$SD 
 	
 	VI=$(( $VI / 2 ))
-	echo "jornada: $SD"
-	echo "viradas: $VI"
-	echo "externas: $EXT"
-	echo "noturnas: $NO"
-	echo "feriados: $FE"
-	echo "fim de semana: $FS"
 
 }
 
@@ -539,6 +535,6 @@ if [ "$1" == "-c" ] ;then
         CALC
 fi
 
-TESTE
+#TESTE
 
 #cat $FILE | jq

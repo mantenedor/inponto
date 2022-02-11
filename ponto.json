@@ -1,0 +1,82 @@
+{
+  "2022": {
+    "02": {
+      "sumario": {
+        "ultimo_registro": "1644613200",
+        "viradas": "0",
+        "extra": "0",
+        "noturno": "0",
+        "jornada": "-518400",
+        "fim_de_semana": "0",
+        "saldo_feriados": "0",
+        "carga_mensal": "547200",
+        "dias_trabalhados": "1",
+        "mes": {
+          "dias": "28",
+          "dias_uteis": "20",
+          "feriados": "1",
+          "feriados_semana": "1",
+          "horas": "671.99972222222222222222"
+        }
+      },
+      "2022-02-11": {
+        "registros": {
+          "1644577200": {
+            "timestamp": "1644577200",
+            "hora": "08:00:00",
+            "sentido": "entrada",
+            "mensagem": "2022-01-01"
+          },
+          "1644591600": {
+            "timestamp": "1644591600",
+            "hora": "12:00:00",
+            "sentido": "saida",
+            "mensagem": "2022-01-01"
+          },
+          "1644598800": {
+            "timestamp": "1644598800",
+            "hora": "14:00:00",
+            "sentido": "entrada",
+            "mensagem": "2022-01-01"
+          },
+          "1644613200": {
+            "timestamp": "1644613200",
+            "hora": "18:00:00",
+            "sentido": "saida",
+            "mensagem": "2022-01-01"
+          }
+        },
+        "sumario": {
+          "sentido": "saida",
+          "registros": "4",
+          "ultimo_registro": "1644613200",
+          "virada": "0",
+          "em_expediente": "28800",
+          "fora_expediente": "7200",
+          "extra": "0",
+          "horas_extras": "00:00:00",
+          "noturno": "0",
+          "dia_da_semana": "5",
+          "jornada": "0",
+          "horas_trabalhadas": "08:00:00",
+          "intervalo": "02:00:00",
+          "horas_noturnas": "00:00:00",
+          "fim_de_semana": "",
+          "saldo_feriados": ""
+        }
+      }
+    },
+    "sumario": {
+      "viradas": "0",
+      "extra": "0",
+      "noturno": "0",
+      "jornada": "-518400",
+      "fim_de_semana": "0",
+      "saldo_feriados": "0"
+    }
+  },
+  "meta": {
+    "sentido": "saida",
+    "ultimo_registro": "1644613200"
+  }
+}
